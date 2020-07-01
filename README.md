@@ -12,7 +12,7 @@ b. Added a scroll-up button for slightly enhanced UX.
 ## Evaluation Criteria
 1. Simplicity - aim for the simplest solution that gets the job done whilst remaining readable, extensible and testable.<br/>
 Note: The app is written with React hooks instead of classes to keep it less verbose. I used React.useState since the number of states are small, 
-but I usually go for React.useReducer if state the is more complex to centralise business logics. This allows for easier expansion and maintenance.
+but I usually go for React.useReducer if the state is more complex to centralise business logics. This allows for easier expansion and maintenance.
 
 2. Test Coverage - breaking changes should break your tests.<br/>
 Note: I have not used jest or enzyme for test-driven development before, but I'll look into it if it's required for the real project.
