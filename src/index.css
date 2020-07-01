@@ -1,13 +1,136 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Index.js */
+
+#top {
+  position: absolute;
+  z-index: 999;
+}
+
+.container {
+  max-width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  justify-content: center;
+}
+
+.controls {
+  text-align: center;
+}
+
+.view-more-btn {
+  margin: 10px;
+  padding: 5px;
+}
+
+/* Card.js */
+
+.card {
+  display: block;
+  position: relative;
+  margin: 5px;
+  width: 400px;
+}
+
+.card:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.5) 100%
+  );
+}
+
+.store-image {
+  display: block;
+  width: 100%;
+  bottom: 0;
+}
+
+.card:hover:after {
+  cursor: pointer;
+  background-image: none;
+}
+
+/* StoreInfo.js */
+
+.store-info {
+  display: flex;
+  position: absolute;
+  top: 190px;
+  left: 5px;
+  border-radius: 3px;
+  font-size: 12px;
+  color: white;
+  padding: 5px;
+  z-index: 1;
+}
+
+.store-logo {
+  width: 30px;
+  height: 30px;
+  padding: 3px;
+  border-radius: 50px;
+  background-color: white;
+}
+
+.store-name {
+  margin: 5px;
+  font-size: 15px;
+}
+
+.store-location {
+  margin: 5px;
+  font-size: 12px;
+  font-weight: 100;
+}
+
+/* Loading.js */
+
+.loading {
+  border: 5px solid #f3f3f3; /* Light grey */
+  border-top: 5px solid #16d47b; /* Blue */
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 0.8s linear infinite;
+  margin: 20px auto;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .container {
+    flex: 100%;
+    max-width: 100%;
+  }
+
+  .store-info {
+    display: flex;
+    position: absolute;
+    top: 150px;
+    left: 5px;
+    border-radius: 3px;
+    font-size: 12px;
+    color: white;
+    padding: 5px;
+    z-index: 1;
+  }
 }
