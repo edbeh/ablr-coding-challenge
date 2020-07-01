@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/ablr-coding-challenge/static/css/main.5dc9ec70.chunk.css",
+    "main.js": "/ablr-coding-challenge/static/js/main.a741da77.chunk.js",
+    "main.js.map": "/ablr-coding-challenge/static/js/main.a741da77.chunk.js.map",
+    "runtime-main.js": "/ablr-coding-challenge/static/js/runtime-main.d5bd92b4.js",
+    "runtime-main.js.map": "/ablr-coding-challenge/static/js/runtime-main.d5bd92b4.js.map",
+    "static/js/2.1068b787.chunk.js": "/ablr-coding-challenge/static/js/2.1068b787.chunk.js",
+    "static/js/2.1068b787.chunk.js.map": "/ablr-coding-challenge/static/js/2.1068b787.chunk.js.map",
+    "index.html": "/ablr-coding-challenge/index.html",
+    "precache-manifest.e6c90e45e7d51c494de6f4c0f5ea0a20.js": "/ablr-coding-challenge/precache-manifest.e6c90e45e7d51c494de6f4c0f5ea0a20.js",
+    "service-worker.js": "/ablr-coding-challenge/service-worker.js",
+    "static/css/main.5dc9ec70.chunk.css.map": "/ablr-coding-challenge/static/css/main.5dc9ec70.chunk.css.map",
+    "static/js/2.1068b787.chunk.js.LICENSE.txt": "/ablr-coding-challenge/static/js/2.1068b787.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d5bd92b4.js",
+    "static/js/2.1068b787.chunk.js",
+    "static/css/main.5dc9ec70.chunk.css",
+    "static/js/main.a741da77.chunk.js"
+  ]
+}
