@@ -2,7 +2,7 @@
 
 App is published at https://edbeh.github.io/ablr-coding-challenge/
 
-a. I have hosted the json provided on my AWS S3 to mimic public API. CORS configured to allow all origin.
+a. I have hosted the json provided on my AWS S3 to mimic public API. CORS configured to allow all origin.<br/>
 E.g. https://aldr-endpoint.s3-ap-southeast-1.amazonaws.com/page_1.json
 
 b. Added a scroll-up button for slightly enhanced UX.
