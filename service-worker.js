@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/ablr-coding-challenge/precache-manifest.e6c90e45e7d51c494de6f4c0f5ea0a20.js"
+  "/ablr-coding-challenge/precache-manifest.91d9f2b399f41c7bf4b165cd92097176.js"
 );
 
 self.addEventListener('message', (event) => {
