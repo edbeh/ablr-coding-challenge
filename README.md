@@ -21,4 +21,4 @@ Note: I have not used jest or enzyme for test-driven development before, but I'l
 Note: Error handled for fetch promise, added propTypes for checking props.
 
 4. Mobile friendly - should look fine on mobile devices.<br/>
-Note: Developed as mobile-first.
+Note: Mobile-optimized.
